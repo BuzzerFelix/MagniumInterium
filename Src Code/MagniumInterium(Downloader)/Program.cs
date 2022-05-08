@@ -42,6 +42,7 @@ namespace MagniumInteriumDownloader
             {
                 Process.Start(@"C:\Temp\MagniumInterium.exe");
             }
+            Environment.Exit(-445);
         }
     }
 }
